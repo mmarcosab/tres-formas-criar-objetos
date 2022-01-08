@@ -1,14 +1,13 @@
-package com.example.demo.builder;
+package com.example.demo.portuguese.builder;
 
 import java.time.LocalDate;
-import java.time.Period;
 
 public class CachorroBuilder {
 
-    private Cachorro cachorro;
+    private Dog cachorro;
 
     public CachorroBuilder() {
-        this.cachorro = new Cachorro();
+        this.cachorro = new Dog();
     }
 
     public static CachorroBuilder builder() {
@@ -16,7 +15,7 @@ public class CachorroBuilder {
     }
 
     public CachorroBuilder addNome(String nome) {
-        this.cachorro.setNome(nome);
+        this.cachorro.setName(nome);
         return this;
     }
 
@@ -36,11 +35,11 @@ public class CachorroBuilder {
     }
 
     public CachorroBuilder addSexo(String sexo) {
-        this.cachorro.setSexo(sexo);
+        this.cachorro.setSex(sexo);
         return this;
     }
 
-    public Cachorro get() {
+    public Dog get() {
         return this.cachorro;
     }
 

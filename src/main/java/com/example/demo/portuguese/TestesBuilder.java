@@ -1,21 +1,21 @@
-package com.example.demo;
+package com.example.demo.portuguese;
 
-import com.example.demo.builder.Cachorro;
-import com.example.demo.builder.CachorroBuilder;
+import com.example.demo.portuguese.builder.Dog;
+import com.example.demo.portuguese.builder.CachorroBuilder;
 
 import java.time.LocalDate;
 
 public class TestesBuilder {
 
     public static void main(String[] args) {
-        Cachorro cachorro = CachorroBuilder.builder()
+        Dog cachorro = CachorroBuilder.builder()
                 .addNome("Rex")
                 .addDataNascimento(LocalDate.of(2015, 10, 10))
                 .addPeso(10.0)
                 .addSexo("M")
                 .addRaca("Pitbull")
                 .get();
-        cachorro.getNome();
+        cachorro.getName();
     }
 
 }

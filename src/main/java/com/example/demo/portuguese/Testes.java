@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.portuguese;
 
-import com.example.demo.domain.Cachorro;
+import com.example.demo.portuguese.domain.Cachorro;
 
 import java.time.LocalDate;
 

@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.demo.portuguese;
 
-import com.example.demo.factory.Cachorro;
-import com.example.demo.factory.CachorroFactory;
+import com.example.demo.portuguese.factory.Cachorro;
+import com.example.demo.portuguese.factory.CachorroFactory;
 
 import java.time.LocalDate;
 

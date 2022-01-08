@@ -1,21 +1,21 @@
-package com.example.demo.builder;
+package com.example.demo.portuguese.builder;
 
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Cachorro {
-    private String nome;
+public class Dog {
+    private String name;
     private LocalDate dataNascimento;
-    private String raca;
-    private String sexo;
+    private String breed;
+    private String sex;
     private Double peso;
 
-    protected Cachorro(){
+    protected Dog(){
 
     }
 
-    protected void setNome(String nome) {
-        this.nome = nome;
+    protected void setName(String name) {
+        this.name = name;
     }
 
     public void setDataNascimento(LocalDate dataNascimento) {
@@ -23,15 +23,15 @@ public class Cachorro {
     }
 
     protected void setRaca(String raca) {
-        this.raca = raca;
+        this.breed = raca;
     }
 
-    protected void setSexo(String sexo) {
-        this.sexo = sexo;
+    protected void setSex(String sex) {
+        this.sex = sex;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
     public Integer getIdade() {
@@ -39,11 +39,11 @@ public class Cachorro {
     }
 
     public String getRaca() {
-        return raca;
+        return breed;
     }
 
-    public String getSexo() {
-        return sexo;
+    public String getSex() {
+        return sex;
     }
 
     public Double getPeso() {
